@@ -1,0 +1,45 @@
+.Features {
+  .content {
+    .boxes {
+      margin-top: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 64px;
+
+      .box {
+        width: 326px;
+        height: 230px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        h3 {
+          color: rgb(217, 227, 234);
+          font-size: clamp(12px, 3vw, 24px);
+          font-weight: 700;
+          line-height: 34px;
+          letter-spacing: -0.25px;
+        }
+        p {
+          color: rgb(155, 169, 180);
+          font-size: clamp(10px, 3vw, 18px);
+          font-weight: 400;
+          line-height: 27px;
+          letter-spacing: -0.25px;
+        }
+      }
+    }
+    .line {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-block: 80px;
+      background: rgb(97, 99, 101);
+      height: 1px;
+      width: 100%;
+    }
+  }
+}

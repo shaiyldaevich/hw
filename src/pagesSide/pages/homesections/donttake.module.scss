@@ -1,0 +1,70 @@
+.donttake {
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .text {
+      h1 {
+        color: rgb(217, 227, 234);
+        font-size: clamp(20px, 8vw, 40px);
+        font-weight: 800;
+        line-height: 50px;
+        letter-spacing: -0.5px;
+        text-align: center;
+      }
+      p {
+        margin-top: 16px;
+        color: rgb(155, 169, 180);
+        font-size: clamp(10px, 8vw, 20px);
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: -0.25px;
+        text-align: center;
+      }
+    }
+    .ava_div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin-block: 80px;
+      .ava_div_block {
+        width: 352px;
+        height: 339px;
+        background: rgb(37, 40, 44);
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 16px;
+        padding-inline: 24px;
+        p {
+          color: rgb(155, 169, 180);
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 27px;
+          letter-spacing: -0.25px;
+        }
+        .line {
+          width: 100%;
+          height: 1px;
+          background: rgb(51, 54, 58);
+          margin-block: 24px;
+        }
+        h3 {
+          font-family: Inter;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: -0.25px;
+          color: rgb(217, 227, 234);
+          span {
+            color: rgb(93, 93, 255);
+          }
+        }
+      }
+    }
+  }
+}

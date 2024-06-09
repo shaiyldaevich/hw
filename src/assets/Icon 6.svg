@@ -1,0 +1,18 @@
+<svg width="64.000000" height="64.000000" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Rectangle" rx="32.000000" width="64.000000" height="64.000000" fill="#5D5DFF" fill-opacity="1.000000"/>
+	<rect id="Rectangle" rx="32.000000" width="64.000000" height="64.000000" stroke="#979797" stroke-opacity="0" stroke-width="0.000000"/>
+	<path id="Path" d="M38 24L38 22" stroke="#CBCCFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="square"/>
+	<path id="Path" d="M40.12 24.87L41.53 23.46" stroke="#CBCCFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="square"/>
+	<path id="Path" d="M41 27L43 27" stroke="#CBCCFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="square"/>
+	<path id="Path" d="M40.12 29.12L41.53 30.53" stroke="#CBCCFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="square"/>
+	<path id="Path" d="M38 30L38 32" stroke="#CBCCFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="square"/>
+	<path id="Path" d="M35.87 29.12L34.46 30.53" stroke="#CBCCFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="square"/>
+	<path id="Path" d="M35 27L33 27" stroke="#CBCCFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="square"/>
+	<path id="Path" d="M35.87 24.87L34.46 23.46" stroke="#CBCCFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="square"/>
+	<circle id="Oval" cx="38.000000" cy="27.000000" r="3.000000" stroke="#CBCCFF" stroke-opacity="1.000000" stroke-width="2.000000"/>
+	<path id="Path" d="M29.86 23.17C24.8 23.98 21 27.59 21 31.99C21 36.99 25.9 40.99 32 40.99C33.04 41.02 34.09 40.88 35.09 40.59L41 42.99L40.4 37.79C41.25 36.95 41.92 35.95 42.39 34.85" stroke="#F4F4FF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="square"/>
+</svg>

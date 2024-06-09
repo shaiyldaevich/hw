@@ -1,0 +1,220 @@
+.footer {
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 64px;
+
+    .stay_div {
+      width: 1104px;
+      height: 206px;
+      background: rgb(93, 93, 255);
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      @media (max-width: 1150px) {
+        width: 900px;
+      }
+      @media (max-width: 830px) {
+        width: 750px;
+        flex-wrap: wrap;
+      }
+      @media (max-width: 545px) {
+        width: 400px;
+      }
+      @media (max-width: 500px) {
+        width: 350px;
+      }
+      @media (max-width: 440px) {
+        width: 300px;
+      }
+      @media (max-width: 400px) {
+        width: 300px;
+      }
+      .stay_text {
+        h3 {
+          color: rgb(255, 255, 255);
+          font-size: clamp(20px, 8vw, 32px);
+          font-weight: 700;
+          line-height: 42px;
+          letter-spacing: -0.25px;
+        }
+        p {
+          color: rgb(226, 225, 255);
+          font-size: clamp(9px, 8vw, 18px);
+          font-weight: 400;
+          line-height: 27px;
+          letter-spacing: -0.25px;
+        }
+      }
+      .stay_inp {
+        display: flex;
+        gap: 8px;
+        @media (max-width: 545px) {
+          flex-wrap: wrap;
+        }
+        @media (max-width: 400px) {
+          width: 300px;
+          flex-wrap: wrap;
+        }
+        @media (max-width: 500px) {
+          flex-wrap: wrap;
+        }
+        @media (max-width: 440px) {
+          padding: 5px 70px 5px 7px;
+          flex-wrap: wrap;
+        }
+        input {
+          box-sizing: border-box;
+          border: 1px solid rgb(141, 141, 255);
+          border-radius: 2px;
+          padding: 12px 178px 12px 16px;
+          background: rgb(75, 74, 207);
+          color: rgb(171, 171, 255);
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: -0.25px;
+          @media (max-width: 545px) {
+            padding: 5px 130px 5px 7px;
+          }
+          @media (max-width: 500px) {
+            padding: 5px 130px 5px 7px;
+          }
+          @media (max-width: 440px) {
+            padding: 5px 70px 5px 7px;
+          }
+          @media (max-width: 400px) {
+            padding: 5px 70px 5px 7px;
+          }
+        }
+        button {
+          border-radius: 2px;
+
+          box-shadow: 0px 1px 3px 0px rgba(25, 32, 44, 0.04);
+          background: rgb(244, 244, 255);
+          color: rgb(93, 93, 255);
+          font-size: clamp(10px, 8vw, 16px);
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: -0.25px;
+          padding: 12px 32px;
+          @media (max-width: 545px) {
+            padding: 8px 28px;
+          }
+          @media (max-width: 500px) {
+            padding: 6px 24px;
+          }
+          @media (max-width: 440px) {
+            padding: 2px 20px;
+          }
+          @media (max-width: 400px) {
+            padding: 2px 15px;
+          }
+        }
+      }
+    }
+    .foot_text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 169px;
+      @media (max-width: 1000px) {
+        flex-wrap: wrap;
+        text-align: center;
+      }
+      .Lorem {
+        p {
+          color: rgb(155, 169, 180);
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: -0.25px;
+        }
+      }
+      .links {
+        display: flex;
+        align-items: start;
+        // justify-content: center;
+        gap: 80px;
+        @media (max-width: 400px) {
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+        }
+        .products {
+          h2 {
+            color: rgb(217, 227, 234);
+            font-size: clamp(7px, 4vw, 14px);
+            font-weight: 500;
+            line-height: 22px;
+            letter-spacing: 0px;
+          }
+          h5 {
+            color: rgb(155, 169, 180);
+            font-size: clamp(7px, 4vw, 14px);
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0px;
+          }
+        }
+        .resources {
+          h2 {
+            color: rgb(217, 227, 234);
+            font-size: clamp(7px, 4vw, 14px);
+            font-weight: 500;
+            line-height: 22px;
+            letter-spacing: 0px;
+          }
+          h5 {
+            color: rgb(155, 169, 180);
+            font-size: clamp(7px, 4vw, 14px);
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0px;
+          }
+        }
+        .company {
+          h2 {
+            color: rgb(217, 227, 234);
+            font-size: clamp(7px, 4vw, 14px);
+            font-weight: 500;
+            line-height: 22px;
+            letter-spacing: 0px;
+          }
+          h5 {
+            color: rgb(155, 169, 180);
+            font-size: clamp(7px, 4vw, 14px);
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0px;
+          }
+        }
+      }
+    }
+    .made {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      // gap: 662px;
+      @media (max-width: 1000px) {
+        flex-wrap: wrap;
+      }
+      h3 {
+        color: rgb(155, 169, 180);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0px;
+        span {
+          color: rgb(217, 227, 234);
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 22px;
+          letter-spacing: 0px;
+        }
+      }
+    }
+  }
+}
